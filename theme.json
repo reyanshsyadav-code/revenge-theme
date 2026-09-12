@@ -3,30 +3,35 @@
   "description": "Pure black OLED background with vibrant neon green accents",
   "authors": [
     {
-      "name": "reyanshsyadav",
-      "id": "0"
+      "name": "reyanshsyadav"
     }
   ],
   "spec": 3,
-  "colors": {
-    "BACKGROUND_PRIMARY": "#000000",
-    "BACKGROUND_SECONDARY": "#000000",
-    "BACKGROUND_SECONDARY_ALT": "#000000",
-    "BACKGROUND_TERTIARY": "#000000",
-    "BACKGROUND_ACCENT": "#00FF00",
-    "BACKGROUND_FLOATING": "#000000",
-    "BACKGROUND_MOBILE_PRIMARY": "#000000",
-    "BACKGROUND_MOBILE_SECONDARY": "#000000",
-    "TEXT_NORMAL": "#00FF00",
-    "TEXT_MUTED": "#00B300",
-    "TEXT_LINK": "#00FF66",
-    "INTERACTIVE_NORMAL": "#00FF00",
-    "INTERACTIVE_HOVER": "#33FF33",
-    "INTERACTIVE_ACTIVE": "#00FF00",
-    "INTERACTIVE_MUTED": "#006600",
-    "HEADER_PRIMARY": "#00FF00",
-    "HEADER_SECONDARY": "#00CC00",
-    "CHANNELS_DEFAULT": "#00FF00",
-    "CHANNEL_ICON": "#00FF00"
+  "semanticColors": {
+    "BACKGROUND_PRIMARY": ["BLACK"],
+    "BACKGROUND_SECONDARY": ["BLACK"],
+    "BACKGROUND_SECONDARY_ALT": ["BLACK"],
+    "BACKGROUND_TERTIARY": ["BLACK"],
+    "BACKGROUND_ACCENT": ["#00FF00"],
+    "BACKGROUND_FLOATING": ["BLACK"],
+    "BACKGROUND_MOBILE_PRIMARY": ["BLACK"],
+    "BACKGROUND_MOBILE_SECONDARY": ["BLACK"],
+    "TEXT_NORMAL": ["#00FF00"],
+    "TEXT_MUTED": ["#00B300"],
+    "TEXT_LINK": ["#00FF66"],
+    "INTERACTIVE_NORMAL": ["#00FF00"],
+    "INTERACTIVE_HOVER": ["#33FF33"],
+    "INTERACTIVE_ACTIVE": ["#00FF00"],
+    "INTERACTIVE_MUTED": ["#006600"],
+    "HEADER_PRIMARY": ["#00FF00"],
+    "HEADER_SECONDARY": ["#00CC00"],
+    "CHANNELS_DEFAULT": ["#00FF00"],
+    "CHANNEL_ICON": ["#00FF00"]
+  },
+  "rawColors": {
+    "BLACK": "#000000",
+    "PRIMARY_600": "#000000",
+    "PRIMARY_660": "#000000",
+    "PRIMARY_800": "#000000"
   }
 }
