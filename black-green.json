@@ -1,7 +1,7 @@
 {
     "name": "Dos.Terminal",
-    "description": "Original theme made by Princeblueblood",
-    "version": "1",
+    "description": "Original theme made by Princeblueblood (Fixed)",
+    "version": "1.1",
     "authors": [
         {
             "name": "Princeblueblood",
@@ -27,6 +27,9 @@
         "TEXT_MUTED": [
             "#16C60C"
         ],
+        "TEXT_BRAND": [
+            "#16C60C"
+        ],
         "INTERACTIVE_NORMAL": [
             "#16C60C"
         ],
@@ -48,9 +51,6 @@
         "BACKGROUND_SECONDARY_ALT": [
             "#000000"
         ],
-        "REDESIGN_BUTTON_SECONDARY_BORDER": [
-            "#13A10E"
-        ],
         "BACKGROUND_TERTIARY": [
             "#000000"
         ],
@@ -70,16 +70,16 @@
             "#000000"
         ],
         "BACKGROUND_MESSAGE_HOVER": [
-            "#16C60C"
+            "#16C60C20"
         ],
         "BACKGROUND_MODIFIER_HOVER": [
-            "#000000"
+            "#16C60C1A"
         ],
         "BACKGROUND_MODIFIER_ACTIVE": [
-            "#000000"
+            "#16C60C33"
         ],
         "BACKGROUND_MODIFIER_SELECTED": [
-            "#000000"
+            "#16C60C26"
         ],
         "BACKGROUND_MODIFIER_ACCENT": [
             "#4A4A4A35"
@@ -94,22 +94,49 @@
             "#000000"
         ],
         "BUTTON_OUTLINE_BRAND_BACKGROUND": [
-            "#16C60C"
-        ],
-        "BUTTON_OUTLINE_BRAND_BOARDER": [
-            "#16C60C"
-        ],
-        "REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND": [
             "#000000"
         ],
-        "REDESIGN_INPUT_CONTROL_SELECTED": [
+        "BUTTON_OUTLINE_BRAND_BORDER": [
+            "#16C60C"
+        ],
+        "BUTTON_OUTLINE_BRAND_TEXT": [
+            "#16C60C"
+        ],
+        "BUTTON_FILLED_BRAND_BACKGROUND": [
+            "#16C60C"
+        ],
+        "BUTTON_FILLED_BRAND_TEXT": [
+            "#000000"
+        ],
+        "REDESIGN_BUTTON_PRIMARY_BACKGROUND": [
+            "#16C60C"
+        ],
+        "REDESIGN_BUTTON_PRIMARY_TEXT": [
+            "#000000"
+        ],
+        "REDESIGN_BUTTON_PRIMARY_BORDER": [
             "#16C60C"
         ],
         "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
             "#000000"
         ],
-        "REDESIGN_BUTTON_PRIMARY_BACKGROUND": [
+        "REDESIGN_BUTTON_SECONDARY_TEXT": [
+            "#16C60C"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_BORDER": [
+            "#13A10E"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND": [
             "#000000"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_ALT_TEXT": [
+            "#16C60C"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_ALT_BORDER": [
+            "#13A10E"
+        ],
+        "REDESIGN_INPUT_CONTROL_SELECTED": [
+            "#16C60C"
         ],
         "ANDROID_RIPPLE": [
             "#16C60C"
@@ -130,7 +157,7 @@
             "#13A10E"
         ],
         "CHANNELTEXTAREA_BACKGROUND": [
-            "#16C60C"
+            "#000000"
         ],
         "CHANNELS_DEFAULT": [
             "#13A10E"
@@ -179,12 +206,12 @@
         "PRIMARY_800": "#000000",
         "BRAND_260": "#13A10E",
         "BRAND_360": "#13A10E",
-        "BRAND_500": "#000000",
+        "BRAND_500": "#16C60C",
         "BRAND_560": "#000000",
         "YELLOW_300": "#13A10E",
         "GREEN_600": "#16C60C",
         "RED_400": "#16C60C",
-        "WHITE_500": "#13A10E",
+        "WHITE_500": "#FFFFFF",
         "WHITE_630": "#16C60C",
         "GREEN_360": "#16C60C",
         "PLUM_1": "#13A10E",
