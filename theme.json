@@ -1,6 +1,6 @@
 {
   "name": "AMOLED Neon Green",
-  "description": "Pure pitch-black OLED background with vibrant neon green accents and text.",
+  "description": "Pure black OLED background with vibrant neon green accents",
   "authors": [
     {
       "name": "reyanshsyadav",
@@ -8,54 +8,25 @@
     }
   ],
   "spec": 3,
-  "semanticColors": {
-    "BACKGROUND_PRIMARY": ["#000000"],
-    "BACKGROUND_SECONDARY": ["#000000"],
-    "BACKGROUND_SECONDARY_ALT": ["#000000"],
-    "BACKGROUND_TERTIARY": ["#000000"],
-    "BACKGROUND_ACCENT": ["#00FF00"],
-    "BACKGROUND_FLOATING": ["#000000"],
-    "BACKGROUND_MOBILE_PRIMARY": ["#000000"],
-    "BACKGROUND_MOBILE_SECONDARY": ["#000000"],
-
-    "TEXT_NORMAL": ["#00FF00"],
-    "TEXT_MUTED": ["#00B300"],
-    "TEXT_LINK": ["#00FF66"],
-    "INTERACTIVE_NORMAL": ["#00FF00"],
-    "INTERACTIVE_HOVER": ["#33FF33"],
-    "INTERACTIVE_ACTIVE": ["#00FF00"],
-    "INTERACTIVE_MUTED": ["#006600"],
-
-    "HEADER_PRIMARY": ["#00FF00"],
-    "HEADER_SECONDARY": ["#00CC00"],
-
-    "CHANNELS_DEFAULT": ["#00FF00"],
-    "CHANNEL_ICON": ["#00FF00"],
-
-    "SEARCH_BAR_BG": ["#000000"],
-    "BUTTON_SECONDARY_BACKGROUND": ["#000000"],
-    "BUTTON_OUTLINE_POSITIVE_BORDER": ["#00FF00"]
-  },
-  "rawColors": {
-    "PRIMARY_100": "#00FF00",
-    "PRIMARY_200": "#00EE00",
-    "PRIMARY_300": "#00CC00",
-    "PRIMARY_400": "#00AA00",
-    "PRIMARY_500": "#008800",
-    "PRIMARY_600": "#000000",
-    "PRIMARY_660": "#000000",
-    "PRIMARY_700": "#000000",
-    "PRIMARY_800": "#000000",
-    "PRIMARY_900": "#000000",
-
-    "PL_GREEN_360": "#00FF00",
-    "GREEN_360": "#00FF00",
-    "BRAND_500": "#00FF00",
-    "BRAND_NEW_500": "#00FF00",
-    "WHITE_500": "#00FF00"
-  },
-  "background": {
-    "blur": 0,
-    "alpha": 1
+  "colors": {
+    "BACKGROUND_PRIMARY": "#000000",
+    "BACKGROUND_SECONDARY": "#000000",
+    "BACKGROUND_SECONDARY_ALT": "#000000",
+    "BACKGROUND_TERTIARY": "#000000",
+    "BACKGROUND_ACCENT": "#00FF00",
+    "BACKGROUND_FLOATING": "#000000",
+    "BACKGROUND_MOBILE_PRIMARY": "#000000",
+    "BACKGROUND_MOBILE_SECONDARY": "#000000",
+    "TEXT_NORMAL": "#00FF00",
+    "TEXT_MUTED": "#00B300",
+    "TEXT_LINK": "#00FF66",
+    "INTERACTIVE_NORMAL": "#00FF00",
+    "INTERACTIVE_HOVER": "#33FF33",
+    "INTERACTIVE_ACTIVE": "#00FF00",
+    "INTERACTIVE_MUTED": "#006600",
+    "HEADER_PRIMARY": "#00FF00",
+    "HEADER_SECONDARY": "#00CC00",
+    "CHANNELS_DEFAULT": "#00FF00",
+    "CHANNEL_ICON": "#00FF00"
   }
 }
