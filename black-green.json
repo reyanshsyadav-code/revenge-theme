@@ -1,11 +1,7 @@
 {
   "name": "Dos.Terminal",
-  "description": "A DOS-terminal-inspired Revenge theme with black backgrounds and phosphor green accents.",
-  "authors": [
-    {
-      "name": "reyanshsyadav-code"
-    }
-  ],
+  "description": "Pure black DOS terminal style with phosphor green accents.",
+  "authors": [{"name": "reyanshsyadav-code"}],
   "spec": 2,
   "semanticColors": {
     "HEADER_PRIMARY": ["#00FF41"],
@@ -17,11 +13,11 @@
     "INTERACTIVE_ACTIVE": ["#66FF88"],
     "INTERACTIVE_MUTED": ["#174D25"],
     "BACKGROUND_PRIMARY": ["#000000"],
-    "BACKGROUND_SECONDARY": ["#020702"],
+    "BACKGROUND_SECONDARY": ["#000000"],
     "BACKGROUND_SECONDARY_ALT": ["#000000"],
-    "BACKGROUND_TERTIARY": ["#050D05"],
-    "BACKGROUND_ACCENT": ["#092E12"],
-    "BACKGROUND_FLOATING": ["#010401"],
+    "BACKGROUND_TERTIARY": ["#000000"],
+    "BACKGROUND_ACCENT": ["#000000"],
+    "BACKGROUND_FLOATING": ["#000000"],
     "BACKGROUND_MOBILE_PRIMARY": ["#000000", "#000000"]
   },
   "rawColors": {
@@ -32,10 +28,10 @@
     "PRIMARY_400": "#009B2E",
     "PRIMARY_500": "#006B20",
     "PRIMARY_600": "#000000",
-    "PRIMARY_630": "#020702",
+    "PRIMARY_630": "#000000",
     "PRIMARY_660": "#000000",
-    "PRIMARY_700": "#050D05",
-    "PRIMARY_800": "#010401",
+    "PRIMARY_700": "#000000",
+    "PRIMARY_800": "#000000",
     "BRAND_260": "#33FF66",
     "BRAND_300": "#00FF41",
     "BRAND_330": "#00E63A",
